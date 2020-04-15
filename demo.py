@@ -22,6 +22,7 @@ from __future__ import print_function
 import sys
 from absl import flags
 import numpy as np
+sys.path.insert(0,'/tensorflow-1.15.2/python2.7')
 
 import skimage.io as io
 import tensorflow as tf
